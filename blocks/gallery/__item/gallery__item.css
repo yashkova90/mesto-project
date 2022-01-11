@@ -1,0 +1,14 @@
+.gallery__item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .gallery__item {
+       margin: 0px 0px 20px 0px;
+    }
+    
+    .gallery__item:last-child {
+        margin: 0px;
+    }
+}

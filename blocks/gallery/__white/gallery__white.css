@@ -1,0 +1,9 @@
+.gallery__white {
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 79px;
+    padding: 0px 20px;
+}

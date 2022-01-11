@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .profile__avatar {
+        margin: 0px 0px 22px 0px;
+    }
+}

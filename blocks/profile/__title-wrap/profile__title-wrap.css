@@ -1,0 +1,14 @@
+.profile__title-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 0px 0px 16px 0px;
+    gap: 0px 18px;
+}
+
+@media (max-width: 768px) {
+    .profile__title-wrap {
+       display: inline-block;
+    }
+}
