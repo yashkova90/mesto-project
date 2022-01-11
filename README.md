@@ -12,4 +12,4 @@
 
 # Гитхаб
 
-https://yashkova90.github.io/russian-travel/
+https://yashkova90.github.io/mesto-project/
