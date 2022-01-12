@@ -5,13 +5,11 @@
     height: 19px;
     width: 22px;
     transition: all 0.2s ease-in-out;
+    border: 0px;
+    background-color: transparent;
 }
 
 .gallery__like:hover { 
     background-image: url("../../../img/heart_2.svg"); 
     cursor: pointer;   
 } 
-
-.gallery__like:active { 
-    background-image: url("../../../img/heart_3.svg");   
-}

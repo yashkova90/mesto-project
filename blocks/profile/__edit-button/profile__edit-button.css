@@ -4,6 +4,10 @@
     height: 24px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    border: 1px solid #fff;
+    background-size: 10px;
 }
 
 .profile__edit-button:hover { 
@@ -15,5 +19,7 @@
         width: 18px;
         height: 18px;
         display: inline-block;
+        background-size: 7.5px;
+        margin-left: 10px;
     }
 }

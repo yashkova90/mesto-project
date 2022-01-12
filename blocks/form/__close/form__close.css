@@ -9,6 +9,8 @@
     background-size: contain;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    border: 0px;
+    background-color: transparent;
 }
 
 .form__close:hover { 

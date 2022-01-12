@@ -2,12 +2,12 @@
     color: #545454;
     font-size: 18px;
     line-height: 22px;
-    
+    margin: 0px;
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
     .footer__description {
-    font-size: 14px;
-    line-height: 17px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }

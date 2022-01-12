@@ -2,6 +2,7 @@
 @import url('../vendor/fonts.css');
 
 @import url('../blocks/page/page.css');
+@import url('../blocks/content/content.css');
 @import url('../blocks/popup/popup.css');
 
 @import url('../blocks/header/header.css');
@@ -13,15 +14,15 @@
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__button/form__button.css');
 @import url('../blocks/form/__close/form__close.css');
-@import url('../blocks/form/__fieldset/_button/form__fieldset_button.css');
-@import url('../blocks/form/__fieldset/_description/form__fieldset_description.css');
 @import url('../blocks/form/__fieldset/form__fieldset.css');
+@import url('../blocks/form/__fieldset/_type_info/form__fieldset_type_info.css');
 @import url('../blocks/form/__input/form__input.css');
 @import url('../blocks/form/__title/form__title.css');
 
 @import url('../blocks/gallery/gallery.css');
 @import url('../blocks/gallery/__item/gallery__item.css');
 @import url('../blocks/gallery/__like/gallery__like.css');
+@import url('../blocks/gallery/__like/_active/gallery__like_active.css');
 @import url('../blocks/gallery/__picture/gallery__picture.css');
 @import url('../blocks/gallery/__title/gallery__title.css');
 @import url('../blocks/gallery/__white/gallery__white.css');
