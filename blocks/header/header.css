@@ -1,6 +1,6 @@
 .header {
     margin: 0px auto 36px auto;
-    width: 880px;
+    max-width: 880px;
     position: relative;
     padding: 45px 19px 41px 19px;
     position: relative;
