@@ -7,7 +7,7 @@
     gap: 0px 18px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 918px) {
     .profile__title-wrap {
        display: inline-block;
     }

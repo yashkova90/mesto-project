@@ -8,7 +8,7 @@
     margin: 0px auto 47px auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 918px) {
     .profile {
         width: 100%;
         display: block;

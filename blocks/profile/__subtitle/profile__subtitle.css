@@ -4,7 +4,7 @@
     margin: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 918px) {
     .profile__subtitle {
         font-size: 14px;
         line-height: 17px;

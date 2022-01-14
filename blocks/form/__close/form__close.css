@@ -17,7 +17,7 @@
     background-image: url('../../../img/close_2.svg'); 
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 918px) {
     .form__close {
         right: 0px;
         top: -36px;
