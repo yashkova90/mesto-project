@@ -1,6 +1,4 @@
 
-// popup.js
-
 const popupButtonClose = document.querySelectorAll('.popup #close');
 
 popupButtonClose.forEach((button) => {
@@ -32,8 +30,6 @@ function popupClose () {
         }, 200);
     });
 }
-
-// profile__edit-button.js
 
 const formProfile = document.getElementById('form-profile');
 const formCard = document.getElementById('form-card');
