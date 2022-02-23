@@ -7,9 +7,10 @@
     transition: all 0.2s ease-in-out;
     border: 0px;
     background-color: transparent;
+    cursor: pointer;
+    flex-shrink: 0;
 }
 
 .gallery__like:hover { 
-    background-image: url("../../../img/heart_2.svg"); 
-    cursor: pointer;   
+    opacity: 0.8;    
 } 

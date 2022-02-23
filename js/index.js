@@ -1,7 +1,7 @@
 
 // popup.js
 
-const popupButtonClose = document.querySelectorAll('.popup .form__close');
+const popupButtonClose = document.querySelectorAll('.popup #close');
 
 popupButtonClose.forEach((button) => {
     button.addEventListener('click', () => {
@@ -13,13 +13,23 @@ function popupOpen (id) {
     const popup = document.getElementById('popup-' + id);
 
     popup.classList.add('popup_active');
+
+    setTimeout(function () {
+     popup.classList.add('popup_show');
+    });
+
+    return popup;
 }
 
 function popupClose () {
     const active = document.querySelectorAll('.popup_active');
 
     active.forEach((popup) => {
-        popup.classList.remove('popup_active');
+        popup.classList.remove('popup_show');
+
+        setTimeout(function () {
+          popup.classList.remove('popup_active');
+        }, 200);
     });
 }
 
@@ -102,12 +112,26 @@ function cardAdd (item) {
     const name = clone.querySelector('.gallery__title');
     const picture = clone.querySelector('.gallery__picture');
     const trash = clone.querySelector('.gallery__remove');
+    const like = clone.querySelector('.gallery__like');
 
     name.innerText = item.name;
     picture.src = item.link;
 
     trash.addEventListener('click', (e) => {
         clone.remove();
+    });
+
+    like.addEventListener('click', (e) => {
+      like.classList.toggle('gallery__like_active');
+    });
+
+    picture.addEventListener('click', (e) => {
+      const popup = popupOpen('picture');
+      const picture = popup.querySelector('#picture-image');
+      const title = popup.querySelector('#picture-title');
+
+      picture.src = item.link;
+      title.innerText = item.name;
     });
 
     return clone;
