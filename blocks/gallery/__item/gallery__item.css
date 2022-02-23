@@ -1,6 +1,7 @@
 .gallery__item {
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
 }
 
 @media (max-width: 918px) {
