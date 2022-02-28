@@ -1,5 +1,7 @@
 
 const popupCloseButtons = document.querySelectorAll('.popup #close');
+const popupProfile = document.querySelector('#popup-profile');
+const popupCard = document.querySelector('#popup-card');
 const popupPicture = document.querySelector('#popup-picture');
 const pictureImage = popupPicture.querySelector('#picture-image');
 const pictureTitle = popupPicture.querySelector('#picture-title');
@@ -71,14 +73,14 @@ function closePopup (popup) {
 }
 
 profileEditButton.addEventListener('click', (e) => {
-    openPopup(document.querySelector('#popup-profile'));
+    openPopup(popupProfile);
 
     profileName.value = profileTitle.innerText;
     profileDescription.value = profileSubtitle.innerText;
 });
 
 profileAddButton.addEventListener('click', (e) => {
-    openPopup(document.querySelector('#popup-card'));
+    openPopup(popupCard);
 });
 
 formProfile.addEventListener('submit', (e) => {
@@ -122,7 +124,7 @@ function addCard (item) {
     });
 
     picture.addEventListener('click', (e) => {
-      openPopup(document.querySelector('#popup-picture'));
+      openPopup(popupPicture);
 
       pictureImage.src = item.link;
       pictureImage.alt = item.name;
